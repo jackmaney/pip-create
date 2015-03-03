@@ -1,3 +1,0 @@
-include pip_create/templates/*.j2
-include *.rst
-include *.txt

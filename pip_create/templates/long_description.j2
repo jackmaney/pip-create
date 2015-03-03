@@ -1,9 +1,0 @@
-{% if readme_file %}
-try:
-    with open({{readme_file}}) as f:
-        long_description = f.read()
-except IOError:
-    long_description = ""
-{% else %}
-long_description = ""
-{% endif %}
